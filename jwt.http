@@ -1,0 +1,10 @@
+GET http://localhost:5009/books
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2Nzc1MDg2ODUsImV4cCI6MTY3NzUwODcxNX0.e0nAr-vRSmMtXp01LsIbinG_F6jxja0H-Vd6ULNjNAk
+
+###
+POST http://localhost:5009/login
+Content-Type: application/json
+
+{
+    "username": "tomytomsevents"
+}
